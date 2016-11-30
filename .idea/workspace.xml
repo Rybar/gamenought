@@ -1,7 +1,260 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11794011-f28d-41d4-9f9b-33393165bc77" name="Default" comment="" />
+    <list default="true" id="11794011-f28d-41d4-9f9b-33393165bc77" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/build/audio/beep.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/build/images/helicopter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/build/images/phaser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/build/images/rustmesa.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga Forever.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga Topaz A500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga Topaz A600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga TopazPlus A500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga TopazPlus A600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amstrad CPC.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/AmstradCPC_16x18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Atari Classic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/C64 Pro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/C64 User.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Harmonica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/V5 Xtender.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Vermin Vibes 1989.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/spark x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/plugin/font_x1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/plugin/font_x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/assets/digits.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/assets/fat-and-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/assets/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/balls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/cushions.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/fat-and-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/fill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/interfont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/extras/World Rules Poster 2009.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/extras/pool-table-physics-shape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/extras/snooker-balls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/extras/table.pes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/boat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/fat-and-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/interfont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/pole.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/rock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/sea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/shark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/skier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/waves.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/ball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/basket.pes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/basket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/board.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/fat-and-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/interfont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/player.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/Backboard and Basket.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/basket.pes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/basket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player1down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player1up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player2down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player2up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player3down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player3up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player4down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player4up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player5down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player5up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/fat-and-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/interfont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/lazer-h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/lazer-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/player.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/star-particle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/bubble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/fat-and-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/interfont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/mine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/player.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/tiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/bones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/bubble1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/bubble2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/cave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/fat-and-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/fish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/hook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/interfont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/undersea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/worm1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/worm2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/fat-and-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/finish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/flags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/interfont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/skier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/skis.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/intro/assets/disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/intro/assets/interfont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/intro/assets/overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/intro/assets/tape.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/asuna_sao_by_vali233.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/fairy_dance_asuna_by_vali233.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/fate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/paused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/phaser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/sky.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/together_by_vali233.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/wave.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/assets/yuzuki_yukari_by_vali233.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/body-direction/ball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/body-direction/orb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/flip-screen-tilemap/fantasy_tiles_by_surt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/flip-screen-tilemap/sky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/flip-screen-tilemap/tiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/flip-screen-tilemap/wizard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/blur.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/space-explorer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/build/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/build/js/app.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/build/js/phaser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/build/style/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga Forever.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga Topaz A500.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga Topaz A600.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga TopazPlus A500.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amiga TopazPlus A600.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Amstrad CPC.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Atari Classic.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/C64 Pro.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/C64 User.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Harmonica.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/V5 Xtender.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/fonts/Vermin Vibes 1989.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/the_beat_goes_on_ii.mod" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/plugin/TTY.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/test1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/test2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/test3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/test4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/test5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/bonus/tty/test6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/assets/digits.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/assets/fat-and-tiny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/assets/ripples.frag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/10secs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/fat-and-tiny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/interfont.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/assets/table.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/extras/table.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/8ball/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/fat-and-tiny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/assets/interfont.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/aquaplane/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/basket.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/fat-and-tiny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/interfont.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/assets/player.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/Player TexturePacker Sheet.tps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/extras/player.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/hothoops/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/fat-and-tiny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/assets/interfont.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/lazerdash/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/fat-and-tiny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/interfont.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/levels.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/assets/levels.tmx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/minedout/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/fat-and-tiny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/assets/interfont.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/offthehook/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/fat-and-tiny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/assets/interfont.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/games/slalom/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/intro/assets/interfont.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/intro/assets/plasma.frag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/intro/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/intro/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/lib/phaser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/lib/phaser.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/lib/phaser.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/lib/protracker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/lib/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/lib/system.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/01 - basic/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/01 - basic/StateB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/01 - basic/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/02 - init/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/02 - init/StateB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/02 - init/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/03 - loadUpdate/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/03 - loadUpdate/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/04 - preRender/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/04 - preRender/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/05 - render/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/05 - render/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/06 - resize/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/06 - resize/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/07 - paused/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/07 - paused/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/08 - pauseUpdate/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/08 - pauseUpdate/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/09 - extending Phaser State/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/09 - extending Phaser State/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/10 - clearWorld/StateA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/10 - clearWorld/StateB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/10 - clearWorld/StateC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/state-manager/10 - clearWorld/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/body-direction/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/body-direction/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/flip-screen-tilemap/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/flip-screen-tilemap/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/flip-screen-tilemap/map.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/flip-screen-tilemap/map.tmx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/demo2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/demo3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/demo4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/demo5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/demo6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/index2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/index3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/index4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/index5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wwwroot/coverdisk/tutorials/super-fake-3d/index6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="gamenought.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,14 +336,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/game/states/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1008548">
+            <state vertical-scroll-proportion="0.0">
               <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
               <folding>
                 <element signature="e#2022#2047#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41025642">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,7 +405,6 @@
         <option value="$PROJECT_DIR$/src/js/game/states/gameover.js" />
         <option value="$PROJECT_DIR$/src/js/game/states/boot.js" />
         <option value="$PROJECT_DIR$/gruntfile.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wwwroot/space-explorer/js/chunk.js" />
         <option value="$PROJECT_DIR$/wwwroot/space-explorer/index.html" />
         <option value="$PROJECT_DIR$/src/js/game/states/title.js" />
@@ -152,6 +414,7 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/js/game/states/preloader.js" />
         <option value="$PROJECT_DIR$/src/js/game/states/game.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -337,9 +600,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2410148" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2410148" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -737,14 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63432837">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -801,11 +1056,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/game/states/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1008548">
+        <state vertical-scroll-proportion="0.0">
           <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
           <folding>
             <element signature="e#2022#2047#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41025642">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
