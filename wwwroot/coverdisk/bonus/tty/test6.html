@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>TTY</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
+    <script src="../lib/phaser.min.js"></script>
+    <script src="plugin/TTY.js"></script>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+    var PhaserExample = function () {
+
+        this.tty = null;
+        this.matches = 23;
+
+    };
+
+    PhaserExample.prototype = {
+
+        preload: function () {
+
+            // this.load.spritesheet('TTYfont', 'plugin/font_x1.png', 8, 9);
+            this.load.spritesheet('TTYfont', 'plugin/font_x2.png', 16, 18);
+
+        },
+
+        create: function () {
+
+            this.stage.backgroundColor = '#0055aa';
+
+            this.tty = new TTY(this.game);
+
+            this.matches = 23;
+
+            this.tty.printCR("... 23 MATCHES ...");
+
+            this.tty.print("THIS IS A GAME CALLED '23 MATCHES'.");
+            this.tty.printCR("WHEN IT IS YOUR TURN, YOU MAY TAKE ONE, TWO, \nOR THREE MATCHES. THE OBJECT OF THE GAME IS \nNOT TO HAVE TO TAKE THE LAST MATCH.");
+
+            this.tty.print("LET'S FLIP A COIN TO SEE WHO GOES FIRST.");
+            this.tty.printCR("IF IT COMES UP HEADS, I WILL WIN THE TOSS.");
+
+            if (Phaser.Utils.chanceRoll())
+            {
+                this.tty.print("TAILS! YOU GO FIRST.");
+                this.yourTurn();
+            }
+            else
+            {
+                this.tty.print("HEADS! I WIN! HA! HA!");
+                this.tty.printCR("PREPARE TO LOSE, MEATBALL-NOSE!!");
+
+                this.tty.print("I TAKE 2 MATCHES");
+                this.matches -= 2;
+                this.yourTurn();
+            }
+
+        },
+
+        yourTurn: function () {
+
+            this.tty.print();
+
+            this.tty.printCR("THE NUMBER OF MATCHES IS NOW " + this.matches);
+
+            this.tty.print("YOUR TURN -- YOU MAY TAKE 1, 2 OR 3 MATCHES.");
+
+            this.tty.inputInt("HOW MANY DO YOU WISH TO REMOVE?", this.enterNumber, this);
+
+        },
+
+        computerTurn: function (n) {
+
+            this.tty.print();
+            this.tty.print("MY TURN! I REMOVE " + n + " MATCHES.");
+            this.matches -= n;
+
+            if (this.matches <= 1)
+            {
+                this.youLost();
+            }
+            else
+            {
+                this.yourTurn();
+            }
+
+        },
+
+        enterNumber: function (n) {
+
+            if (n < 0 || n > 3)
+            {
+                this.tty.print("VERY FUNNY! DUMMY!");
+                this.tty.print("DO YOU WANT TO PLAY OR GOOF AROUND?");
+                this.tty.inputInt("NOW, HOW MANY MATCHES DO YOU WANT?", this.enterNumber, this);
+            }
+            else
+            {
+                this.matches -= n;
+                this.tty.print("THERE ARE NOW " + this.matches + " MATCHES REMAINING.");
+
+                if (this.matches <= 4 && this.matches > 1)
+                {
+                    this.computerTurn(this.matches - 1);
+                }
+                else if (this.matches <= 1)
+                {
+                    this.youWon();
+                }
+                else
+                {
+                    this.computerTurn(4 - n);
+                }
+            }
+
+        },
+
+        youWon: function () {
+
+            this.tty.print("YOU WON, FLOPPY EARS !");
+            this.tty.print("THINK YOU'RE PRETTY SMART ?!");
+            this.tty.print("LETS PLAY AGAIN AND I'LL BLOW YOUR SHOES OFF !!");
+
+        },
+
+        youLost: function () {
+
+            this.tty.print("YOU POOR BOOB! YOU TOOK THE LAST MATCH! I GOTCHA!!");
+            this.tty.print("HA ! HA ! I BEAT YOU !!!");
+
+        },
+
+        render: function () {
+
+            //  This could probably move to a TTY bottom-line thing?
+            this.game.debug.text("col (x): " + this.tty.col, 32, 550);
+            this.game.debug.text("row (y): " + this.tty.row, 200, 550);
+            this.game.debug.text("width: " + this.tty.width, 400, 550);
+            this.game.debug.text("height: " + this.tty.height, 600, 550);
+
+        }
+
+    };
+
+    var game = new Phaser.Game("100%", "100%", Phaser.CANVAS, null, PhaserExample);
+
+    </script>
+
+</body>
+</html>

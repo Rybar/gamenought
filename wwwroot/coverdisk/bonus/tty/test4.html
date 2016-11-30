@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>TTY</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
+    <script src="../lib/phaser.min.js"></script>
+    <script src="plugin/TTY.js"></script>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+    var PhaserExample = function () {
+
+        this.tty = null;
+
+    };
+
+    PhaserExample.prototype = {
+
+        preload: function () {
+
+            // this.load.spritesheet('TTYfont', 'plugin/font_x1.png', 8, 9);
+            this.load.spritesheet('TTYfont', 'plugin/font_x2.png', 16, 18);
+
+        },
+
+        create: function () {
+
+            this.stage.backgroundColor = '#0055aa';
+
+            this.tty = new TTY(this.game);
+
+            this.tty.print("... HIGH LOW ...").print();
+            this.go = 0;
+            this.tty.inputInt("WHAT IS THE LIMIT?", this.setLimit, this);
+
+        },
+
+        setLimit: function (n) {
+
+            this.r = this.rnd.between(1, n);
+
+            this.tty.print();
+            this.tty.print("I'VE PICKED A NUMBER BETWEEN 1 AND " + n).print();
+
+            this.tty.inputInt("WHAT IS IT?", this.pickNumber, this);
+
+        },
+
+        pickNumber: function (n) {
+
+            this.go++;
+
+            if (n < this.r)
+            {
+                this.tty.print("TOO LOW!");
+                this.tty.inputInt("WHAT IS IT?", this.pickNumber, this);
+            }
+            else if (n > this.r)
+            {
+                this.tty.print("TOO HIGH!");
+                this.tty.inputInt("WHAT IS IT?", this.pickNumber, this);
+            }
+            else
+            {
+                if (this.go > 6)
+                {
+                    this.tty.print("DREADFUL!");
+                }
+                else if (this.go < 7 && this.go > 4)
+                {
+                    this.tty.print("NOT BAD!");
+                }
+                else
+                {
+                    this.tty.print("VERY GOOD!");
+                }
+
+                this.tty.print("YOU TOOK " + this.go + " TRIES");
+            }
+
+        },
+
+        render: function () {
+
+            //  This could probably move to a TTY bottom-line thing?
+            this.game.debug.text("col (x): " + this.tty.col, 32, 550);
+            this.game.debug.text("row (y): " + this.tty.row, 200, 550);
+            this.game.debug.text("width: " + this.tty.width, 400, 550);
+            this.game.debug.text("height: " + this.tty.height, 600, 550);
+
+        }
+
+    };
+
+    var game = new Phaser.Game("100%", "100%", Phaser.CANVAS, null, PhaserExample);
+
+    </script>
+
+</body>
+</html>
