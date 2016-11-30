@@ -38,20 +38,33 @@ game.create = function () {
 
     "vec2 st = vTextureCoord.xy;",
 
-      "st *= resolution;",
+      "st *= resolution;", //this makes the box defined below tiny and repeat across the screen
       "st = fract(st);",
 
-    "vec4 color = texture2D(uSampler, vTextureCoord);",
+
 
     // bottom-left
-    "vec2 bl = step(vec2(0.75) , st);",
+    "vec2 bl = step(vec2(0.25, 0.75) , st);",
     "float pct = bl.x * bl.y;",
 
    // top-right
-   "vec2 tr = step(vec2(0.00),1.0-st);",
+   "vec2 tr = step(vec2(0.5, 0.00),1.0-st);",
    "pct *= tr.x * tr.y;",
+      "pct *= 0.15;", //knock it down to gray
 
-    "gl_FragColor = color + vec4(vec3(pct-0.25), 1.0) * vec4(vec3(0.5), 1.0);",
+    "vec3 src = texture2D(uSampler, vTextureCoord).xyz;",  //game art
+    "vec3 dst = vec3(pct) + vec3(0.4);",  //the overlay pattern
+
+    //screen blend
+    //"gl_FragColor = ( src + dst ) - ( src * dst );",
+
+    //overlay blend
+      "vec3 color = vec3((dst.x <= 0.5) ? (2.0 * src.x * dst.x) : (1.0 - 2.0 * (1.0 - dst.x) * (1.0 - src.x))," +
+      "(dst.y <= 0.5) ? (2.0 * src.y * dst.y) : (1.0 - 2.0 * (1.0 - dst.y) * (1.0 - src.y))," +
+    "(dst.z <= 0.5) ? (2.0 * src.z * dst.z) : (1.0 - 2.0 * (1.0 - dst.z) * (1.0 - src.z)));",
+
+      "gl_FragColor.rgb = clamp(color, 0.0, 1.0);",
+      "gl_FragColor.w = 1.0;",
 
     "}",
 
@@ -128,7 +141,7 @@ game.create = function () {
 
   gameGroup = game.make.group();
 
-  helicopter = game.make.sprite(0,0, 'helicopter');
+  helicopter = game.make.sprite(0,0, 'rustmesa');
   game.physics.enable(helicopter, Phaser.Physics.ARCADE);
   gameGroup.add(helicopter);
 

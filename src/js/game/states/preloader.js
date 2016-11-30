@@ -9,6 +9,7 @@ preloader.preload = function () {
 
   this.game.load.image('logo', 'images/phaser.png');
   this.game.load.image('helicopter', 'images/helicopter.png');
+  this.game.load.image('rustmesa', 'images/rustmesa.gif');
 
   var bmd = this.game.make.bitmapData(100,25);
 
